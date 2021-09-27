@@ -1,0 +1,230 @@
+.separatorBrowser {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background: #373A44;
+    height:1px;
+    font-size:13px ;
+  }
+  
+  .separatorBrowser::before,
+  .separatorBrowser::after {
+    content: '';
+    flex: 1;
+    
+  }
+  
+  .separatorBrowser:not(:empty)::before {
+    margin-right: 1em;
+  }
+  
+  .separatorBrowser:not(:empty)::after {
+    margin-left: 40em;
+    
+  }
+  .stockDetailsUpdateBrowser{
+  padding-top:5px;
+  padding-bottom: 7px;
+  
+  
+  
+  font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+
+color: #FFFFFF;
+
+
+  
+  
+  }
+  .stockDetailsUpdateSubBrowser{
+    display:block;
+    
+  
+  
+  font-family: Graphik;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.8);
+
+  
+  
+  }
+
+  .mainBlockTableBuyBrowser{
+    display:flex;
+    border-left:2px solid  #18B13F ;
+    justify-content:space-around;
+    background: #373A44;
+    height:6vh;
+    padding-top:5px;
+  
+  }
+  .mainBlockTableSellBrowser{
+    display:flex;
+      border-left:2px solid #EA5E4B;
+    
+    justify-content:space-around;
+    background: #373A44;
+    height:6vh;
+    padding-top:5px;
+  
+  }
+  .buyTableContainBrowser{
+    flex:0.3;
+    color:white;
+    padding:10px 0px;
+    text-align:center
+  }
+  .headingStock{
+    color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 18px;
+  padding: 12px 10px 12px 100px;
+  }
+  .headingStockOne{
+    color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 18px;
+  padding: 12px 100px 12px 120px;
+  }
+
+.stockDetailsHeading{
+  color:#E1E1E1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
+
+  margin-top: 10px;
+    margin-bottom:20px;
+    font-family: Open Sans, sans-serif
+  
+  
+}
+
+  
+  /* .paraStockDetails{
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    margin:20px;
+
+  } */
+
+  .buttonBuyStock{
+    
+      flex: 0.3;
+      align-items: center;
+
+      width: 150px !important;
+      height: 40px;
+      
+      
+      background: #18B13F;
+      border-radius: 4px;
+      color: #ffffff;
+      border: none;
+      font-weight: normal;
+      font-size: 20;
+      margin-left: 5px;
+  
+    text-align: center;
+    margin-top: 2px;
+    max-width: 5em;
+    min-width: 5em;
+    margin-left: 10px;
+  }
+
+  .buttonSellStock{
+    
+
+    width: 150px !important;
+    height: 40px;
+    
+    
+    background:#EA5E4B;
+    border-radius: 4px;
+    color: #ffffff;
+    border: none;
+    font-weight: normal;
+    font-size: 20;
+    
+    text-align: center;
+    margin-top: 2px;
+    max-width: 5em;
+    min-width: 5em;
+    margin-left: 10px;
+  }
+  .buttonHoldStock{
+    width: 150px !important;
+    height: 40px;
+    
+    
+    background:    #F8D42B;
+    border-radius: 4px;
+    color: #ffffff;
+    border: none;
+    font-weight: normal;
+    font-size: 20;
+
+    text-align: center;
+    margin-top: 2px;
+    max-width: 5em;
+    min-width: 5em;
+    margin-left: 10px;
+  }
+  .brokerButtonStocks{
+
+
+    width: 240px ;
+    height: 40px;
+    background:#18B13F;
+    border-radius: 8;
+    color: #ffffff;
+    border: none;
+    
+    font-size: 14;
+
+    text-align: center;
+    margin-top: 30px;
+    
+    
+
+  }
+
+  .modelStockDetails{
+    
+      position: fixed;
+      bottom: 30vh;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 999999;
+      width: 464px;
+      height: 400px;
+      background: #FFFFFF;
+      border-radius: 8px;
+
+      color: white;
+      padding-left:20px;
+      padding-right:20px; 
+    
+  }
+  
+  

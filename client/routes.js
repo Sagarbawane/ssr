@@ -7,9 +7,14 @@ export default [
     path: '/',
     exact: true
   },
+
   {
     ...Post,
-    path: '/posts',
+    path: '/:label',
     exact: true,
   }
 ]
+
+
+
+
