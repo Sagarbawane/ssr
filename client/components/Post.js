@@ -1228,14 +1228,7 @@ showData.daily.hhpc_strat.signal_history.sell.length ===
         </div>
       )}
 </div>
-<div style={{flex:"0.5"}}></div>
-
-
-
-
-    </div>
-    <div style={{display:"flex",justifyContent:"space-around"}}>
-    <div style={{flex:"1"}}>
+<div style={{flex:"0.4"}}>
 <ResponsiveContainer width="100%" height={400}>
         <ComposedChart
           width={500}
@@ -1266,6 +1259,8 @@ showData.daily.hhpc_strat.signal_history.sell.length ===
         </ComposedChart>
       </ResponsiveContainer>
 </div> 
+
+
 
     </div>
 

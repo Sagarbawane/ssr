@@ -4,7 +4,7 @@ import StopLoss from "../Resources/STOPLOSS_ICON.svg";
 import GROWTH_ICON from "../Resources/GROWTH_ICON.svg";
 import Decision from "../Resources/decision-making-2 1.svg";
 import Book from "../Resources/Group 227.svg";
-
+import { Link } from "react-router-dom";
 
 
 const WhyCycle=()=>{
@@ -79,7 +79,9 @@ style={{marginTop:"27px"}}
                </div>
       
         </div>
+        <a href="http://localhost:3000" target="_blank">
            <div className="buttonCheckedSSR"><span style={{display:"inline-block",paddingTop:"16px"}}>REGISTER FOR EARLY ACCESS</span></div>
+          </a>
            <br/>
       </div>
 

@@ -21,7 +21,7 @@ class footer extends React.Component {
   render() {
     return (
       <div style={{ backgroundColor: " #000000" }}>
-        <div style={{margin:"auto",width:"90vw",padding:"40px 0px 0px 0px"}}>
+        {/* <div style={{margin:"auto",width:"90vw",padding:"40px 0px 0px 0px"}}>
           <span className="footerssrHeading">Commercials: </span><span className="footerssrHeadingSub">best penny stocks to buy now </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">blue chip stocks  </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">bluish stock </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub"> common stock</span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">hot stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">indian stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best penny stocks to buy now </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">blue chip stocks  </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">bluish stock </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub"> common stock</span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">hot stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">indian stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best penny stocks to buy now </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">blue chip stocks  </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">bluish stock </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub"> common stock</span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">hot stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">indian stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span>
         </div>
         <div style={{margin:"auto",width:"90vw",padding:"20px 0px 0px 0px"}}>
@@ -29,9 +29,9 @@ class footer extends React.Component {
         </div>
         <div style={{margin:"auto",width:"90vw",padding:"20px 0px 0px 0px"}}>
           <span className="footerssrHeading">Informational: </span><span className="footerssrHeadingSub">best penny stocks to buy now </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">blue chip stocks  </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">bluish stock </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub"> common stock</span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">hot stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">indian stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best penny stocks to buy now </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">blue chip stocks  </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">bluish stock </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub"> common stock</span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">hot stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">indian stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best penny stocks to buy now </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">blue chip stocks  </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">bluish stock </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub"> common stock</span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">hot stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">indian stocks </span><span className="footerssrHeadingDash">|</span><span className="footerssrHeadingSub">best stock to buy as a beginner </span><span className="footerssrHeadingDash">|</span>
-        </div>
+        </div> */}
 
-        <div style={{margin:"auto",width:"90vw",padding:"20px 0px 0px 0px"}}>
+        <div style={{margin:"auto",width:"90vw",padding:"30px 0px 0px 0px"}}>
           <span className="footerssrLinks">Terms & Conditions </span> <span className="footerssrHeadingDashLinks">|</span> <span className="footerssrLinks">   Refund & Return Policy</span> <span className="footerssrHeadingDashLinks">|</span> <span className="footerssrLinks">   Privacy Policy</span> 
         </div>
         <div style={{margin:"auto",width:"90vw",padding:"20px 0px 0px 0px"}}>
@@ -44,7 +44,7 @@ class footer extends React.Component {
 </div>
 
 <div style={{flex:"0.1"}}>
-         <a href="https://play.google.com/store/apps/details?id=com.iamclearmind.cycle">
+         <a target="_blank" href="https://play.google.com/store/apps/details?id=com.iamclearmind.cycle">
             <div className="playstoreButton">
 
               <div style={{ flex: "0.3", marginTop: "9px", marginLeft: "15px" }}><img style={{width:"32px",height:"32px"}} src={Playstore}></img></div>
@@ -57,7 +57,7 @@ class footer extends React.Component {
            </a>
 </div>
 <div style={{flex:"0.1"}}>
-         <a href="https://play.google.com/store/apps/details?id=com.iamclearmind.cycle">
+         <a target="_blank" href="https://play.google.com/store/apps/details?id=com.iamclearmind.cycle">
             <div className="playstoreButton">
 
               <div style={{ flex: "0.3", marginTop: "9px", marginLeft: "15px" }}><img style={{width:"32px",height:"32px"}} src={AppStore}></img></div>
@@ -72,7 +72,18 @@ class footer extends React.Component {
 
 <div style={{flex:"0.25"}}>
 <div className="footerssrHeading">Connect with Us</div>
-<img style={{marginRight:"8px"}}src={facebook} alt="fb"/> <img style={{marginRight:"8px"}} src={instagram} alt="insta"/> <img style={{marginRight:"8px"}} src={linkedin} alt="link"/> <img style={{marginRight:"5px"}} src={twitter} alt="twi"/>
+<a target="_blank" href="https://www.facebook.com/iamclearmind">
+<img style={{marginRight:"8px"}}src={facebook} alt="fb"/>
+</a>
+<a target="_blank" href="https://www.instagram.com/iamclearmind/">
+ <img style={{marginRight:"8px"}} src={instagram} alt="insta"/> 
+ </a>
+ <a target="_blank" href="https://www.linkedin.com/company/iamclearmind/">
+ <img style={{marginRight:"8px"}} src={linkedin} alt="link"/> 
+ </a>
+ <a target="_blank" href="https://twitter.com/iam_clearmind"> 
+ <img style={{marginRight:"5px"}} src={twitter} alt="twi"/>
+ </a>
 </div>
         </div>
         <div style={{ borderBottom: "1px solid rgba(255, 255, 255, 0.3)", width: "85vw", margin: "auto", marginTop: "50px" }}></div>

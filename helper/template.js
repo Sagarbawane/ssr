@@ -3036,6 +3036,701 @@ z-index:999999999999;
   margin-top: 30px;
   padding: 20px 20px 15px 10px !important;
 }
+.mainHeading {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 46px;
+  
+}
+.subHeading {
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.8);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+.heading {
+  text-align: left;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+
+  margin-left: 183px;
+}
+.heading2 {
+  text-align: left;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 53px;
+
+  margin-left: 150px;
+  padding: 50px 0px;
+}
+.sectionHeading {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 27px;
+  padding: 50px 0px 18px 0px;
+}
+.sectionSubHeading {
+  color: rgba(0, 0, 0, 0.8);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  padding: 10px 20px 50px 20px;
+}
+.userType {
+  text-align: center;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 31px;
+  padding: 60px 0px 40px 0px;
+}
+.selectedPlan {
+  background: rgba(24, 177, 63, 0.2);
+
+  border-radius: 4px;
+  border-top: 10px solid #18b13f;
+  border-left: 1px solid #18b13f;
+  border-right: 1px solid #18b13f;
+  border-bottom: 1px solid #18b13f;
+}
+.notSelected {
+  background: #ffffff;
+  border-radius: 4px;
+  border-top: 10px solid #18b13f;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.userPrice {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+}
+.userPeriod {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+}
+.plan {
+  color: rgba(0, 0, 0, 0.9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 22px;
+  padding: 20px 0px 12px 0px;
+  margin-left: 30px;
+}
+.plan1 {
+  color: rgba(0, 0, 0, 0.9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 40px;
+  padding: 20px 0px 12px 0px;
+  margin-left: 14px;
+}
+.userPlanButton {
+  width: 420px;
+  border-radius: 8px;
+  height: 70px;
+  background: #18b13f;
+  align-items: center;
+  padding-top: 19px;
+
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 35px;
+
+  color: #ffffff;
+}
+.subName {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.reviewContain {
+  margin-top: 30px;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  
+}
+.reviewName {
+  margin-top: 40px;
+  font-family: Tomorrow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+  /* identical to box height */
+  width: 80%;
+  text-align: right;
+  padding: 30px 0px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+@media (max-height: 750px) {
+  .reviewName {
+    margin-top: 30px;
+
+    font-size: 2.5rem;
+
+    text-align: right;
+    padding: 25px 0px;
+
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.whyCycleMain {
+  flex: 0.23;
+  width: 20vw !important;
+  height: 34vh;
+  align-items: center;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 1);
+  
+  box-sizing: border-box;
+  border-radius: 70px;
+}
+.customerReviewBox{
+
+    width: 83vw;
+    margin: auto;
+    background: #F1F1F1;
+    height: 40vh;
+
+}
+@media (max-height: 800px) {
+  .whyCycleMain {
+    height: 45vh;
+  }
+}
+@media (max-height: 800px) {
+  .customerReviewBox{
+
+    width: 85vw;
+    margin: auto;
+    background: #F1F1F1;
+    height: 50vh;
+
+}
+}
+
+
+.selectedOption {
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  padding: 10px 20px;
+  border-bottom: 4px solid #18b13f;
+}
+
+.notSelectedOption {
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  padding: 10px 20px;
+}
+.navButton {
+  width: 120px;
+  height: 50px;
+  background: #18b13f;
+  border: 1px solid #18b13f;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.navButtonText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+
+  color: #fcfcfc;
+}
+
+.objective1-div {
+  display: flex;
+  flex-flow: row;
+  row-gap: 2;
+  overflow: auto;
+}
+.objective1 {
+  width: 100%;
+}
+.parent {
+  position: relative;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.objective1-heading {
+  margin-top:70px;
+
+
+  font-style: normal;
+font-weight: 600 !important;
+font-size: 60px !important;
+line-height: 60px;
+
+color: #ffffff !important;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16) !important;
+
+}
+.objective1-para {
+  width: 100%;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px !important;
+  line-height: 40px !important;
+  
+  color: #FFFFFF;
+  
+}
+.pt60 {
+  padding-top: 60px;
+}
+.pt40 {
+  padding-top: 40px;
+}
+.pt20 {
+  padding-top: 140px;
+  color: black;
+
+}
+
+.carousal-img {
+  width: auto;
+  height: 23rem;
+  float: right;
+}
+
+.ind {
+  width: 15%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .carousal-img {
+    float: none;
+    margin: auto;
+    margin-left: 23%;
+  }
+  .objective1-div {
+    padding-top: 20px;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 31rem;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.carousal-img:hover {
+  transform: scale(1.01);
+}
+
+.distance{
+  padding:100px 30px;
+}
+
+@media (max-height: 800px) {
+  .distance{
+    padding: 45px 30px 0px 30px;
+  }
+
+}
+@media (max-height: 750px) {
+  .distance{
+    padding: 20px 30px 0px 30px;
+  }
+
+}
+@media (max-height: 900px) {
+  .distance{
+    padding: 80px 30px 0px 30px;
+  }
+
+}
+@media (max-height: 850px) {
+  .distance{
+    padding: 60px 30px 0px 30px;
+  }
+
+}
+@media (max-height: 670px) {
+  .distance{
+    padding: 50px 30px 0px 30px;
+  }
+
+}
+.mainHeadingMobile {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 60px;
+  /* or 114% */
+ 
+  color: #000000;
+}
+.subHeadingMobile {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  /* or 131% */
+  margin-top:17px !important ;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+.heading {
+  text-align: left;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53px;
+
+  margin-left: 183px;
+}
+.HeadingSSRMobile{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 220px !important;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+
+  margin-left: 30px;
+  padding: 30px 0px 20px 0px;
+}
+.headingMobile {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px !important;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+
+  margin-left: 30px;
+  padding: 30px 0px 20px 0px;
+}
+.sectionHeadingMobile {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 30px;
+
+  color: #000000;
+
+  padding: 25px 0px 4px 0px;
+}
+.sectionSubHeadingMobile {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 27px;
+
+  color: #000000;
+
+  padding: 8px 20px 5px 20px;
+}
+.userTypeMobile {
+  text-align: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-left: 7px;
+
+  padding: 10px 0px 10px 10px;
+}
+.selectedPlanMobile {
+  width:800px;
+  height: 180px;
+
+  background: rgba(24, 177, 63, 0.2);
+  border: 1px solid #18b13f;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.notSelectedMobile {
+  width: 800px;
+  height: 180px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.userPrice {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 44px;
+}
+.userPeriodMobile {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 15px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+.planMobile {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 15px;
+  text-align: left;
+
+  color: rgba(0, 0, 0, 0.8);
+
+  padding: 10px 0px 12px 0px;
+  margin-left: 15px;
+}
+.plan1 {
+  color: rgba(0, 0, 0, 0.9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 22px;
+  padding: 20px 0px 12px 0px;
+  margin-left: 5px;
+}
+.userPlanButtonMobile {
+  width: 500px;
+  height: 60px;
+
+  background: #18b13f;
+  box-shadow: -1px -1px 2px rgba(28, 205, 73, 0.3),
+    1px 1px 2px rgba(20, 149, 53, 0.5),
+    inset 1px -1px 2px rgba(20, 149, 53, 0.2),
+    inset -1px 1px 2px rgba(20, 149, 53, 0.2),
+    inset 1px 1px 2px rgba(28, 205, 73, 0.9),
+    inset -1px -1px 3px rgba(20, 149, 53, 0.9);
+  border-radius: 8px;
+  align-items: center;
+  padding-top: 19px;
+
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 35px;
+  padding-bottom: 19px;
+  color: #ffffff;
+}
+.subName {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.reviewContainMobile {
+  padding-bottom: "10px";
+  font-family: Times New Roman;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+.reviewNameMobile {
+  padding-top: 45px;
+  font-family: Tomorrow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 17px;
+  text-align: right;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.whyCycleMainMobile {
+  flex: 0.4;
+  width: 10vw !important;
+  height: 20vh !important;
+  align-items: center;
+
+  background: #ffffff;
+ 
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align:center
+}
+.whyCycleMainTextMobile {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #000000;
+
+  margin-top: 40px;
+  padding: 8px 20px !important;
+}
+.whyCycleMainText1Mobile {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #000000;
+  margin-top: 40px;
+  padding: 20px 20px !important;
+}
+
+
+.navButton {
+  width: 120px;
+  height: 50px;
+  background: #18b13f;
+  border: 1px solid #18b13f;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.navButtonText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+
+  color: #fcfcfc;
+}
+.navBarLoginMobile {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 30px;
+  /* identical to box height */
+  margin-left: 50px;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+.navBarAllMobile {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 30px;
+  /* identical to box height */
+
+  padding: "70px 0px";
+  color: rgba(255, 255, 255, 0.8);
+}
+.appbarWidth{
+  width:85%
+}
+
+@media only screen and (max-width: 4100px) {
+  .reviewNameMobile {
+    padding-top: 37px;
+    padding-bottom: 100px;
+  }
+  .reviewContainMobile {
+    padding-bottom: "10px";
+
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .whyCycleMainMobile {
+    flex: 0.42;
+    width: 182px;
+    height: 195.87px;
+  }
+  .whyCycleMainTextMobile {
+    margin-top: 30px;
+    padding: 8px 20px !important;
+  }
+}
+
+.navButtonMobile {
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  background: #18b13f;
+  border: 1px solid #18b13f;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 7px 20px 10px 13px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.navButtonTextMobile {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  
+
+  color: #fcfcfc;
+}
 
 
 </style>

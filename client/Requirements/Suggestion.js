@@ -664,10 +664,14 @@ to={`https://mycycles.in/long-stock-details/${row.scrip_code}`}
                    <img src={Lock} alt="lock"/>
                </div>
                <div style={{textAlign:"center"}}>
-               <div className="buttonCheckedSSRSuggestion"><span style={{display:"inline-block",paddingTop:"16px"}}>REGISTER FOR EARLY ACCESS</span></div>
+               <a href="https://mycycles.in" target="_blank">
+               <div className="buttonCheckedSSRSuggestion"><span style={{display:"inline-block",paddingTop:"16px"}}>SIGN UP</span></div>
+               </a>
                </div>
                <div style={{textAlign:"center"}}>
+               <a href="https://mycycles.in" target="_blank">
                <div  className="buttonCheckedSSRSuggestion1"><span style={{display:"inline-block",paddingTop:"16px",}}>REGISTER FOR EARLY ACCESS</span></div>
+               </a>
                </div>
               </Card>
 

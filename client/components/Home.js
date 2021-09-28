@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
+import { BrowserView, MobileView } from "react-device-detect";
+import HomeBrowser from "../MainPage/HomeBrowser"
+import HomeMobileSSR from "../MainPage/HomeMobile"
 
-class Home extends Component {
-  render() {
+const Home=()=>{
+ 
+  
     return (
-      <div>
-        Hello world from React SSR. This is Home.
-      </div>
+      <>
+      <MobileView>
+    
+    <HomeMobileSSR/>
+      
+      </MobileView>
+      <BrowserView>
+       <HomeBrowser/>
+      </BrowserView>
+     
+      
+      </>
+      
     );
-  }
+  
 }
 
 export default {
