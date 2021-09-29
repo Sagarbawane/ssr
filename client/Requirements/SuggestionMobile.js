@@ -164,8 +164,13 @@ const SuggestionMobile=()=>{
 <div style={{backgroundColor: "#292e35",width:"95vw",textAlign:"center",margin:"auto"}}>
  <img style={{margin:"30px 0px",width:"100px",height:"100px"}} src={Lock} alt="lock"/>
 </div>
+<a href="https://app.mycycles.in" target="_blank">
 <div  className="buttonCheckedSSRMobile1"><span style={{display:"inline-block",padding:"26px 0px"}}>SIGN UP</span></div>
-<div style={{marginBottom:"0px",paddingBottom:"20px"}} className="buttonCheckedSSRMobile"><span style={{display:"inline-block",paddingTop:"26px"}}>Download Now</span></div>
+</a>
+<a href="https://app.mycycles.in" target="_blank">
+
+<div style={{marginBottom:"0px",paddingBottom:"20px"}} className="buttonCheckedSSRMobile"><span style={{display:"inline-block",paddingTop:"26px"}}>Register For Early Access</span></div>
+</a>
 </div>
      
       </div>

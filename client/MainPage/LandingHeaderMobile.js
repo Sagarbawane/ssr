@@ -68,7 +68,7 @@ const LandingHeader=(props) =>{
 
 
             </div>
-            <Link to="/main"><div className="navBarLoginMobile">Login</div></Link>
+            <a target="_blank" href="https://bit.ly/getcycleapp"><div className="navBarLoginMobile">Login</div></a>
 
             <div style={{ background: " #121212" }}>
               <br />
@@ -78,11 +78,8 @@ const LandingHeader=(props) =>{
                 setOpen(false)
               }} className="navBarAllMobile">Why cycle ?</div></a>
               <br />
-              <a href={props.feature}><div onClick={() => {
-
-                setOpen(false)
-              }} className="navBarAllMobile">Key Features</div></a>
-              <br />
+             
+             
               <a href={props.cycle}><div onClick={() => {
 
                 setOpen(false)

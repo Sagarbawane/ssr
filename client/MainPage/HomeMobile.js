@@ -92,7 +92,7 @@ const HomeMobileSSR = () => {
 
     < div style={{ body: "#ffffff !important" }
     }>
-<div style={{ background: "#F1F1F1" }} id="whyCycle"></div>
+<div style={{ background: "#F1F1F1" }} ></div>
       <LandingHeader cycle={"#cycle"} price={"#price"} feature={"#feature"} why={"#whyCycle"} integrate={"#integrate"} customer={"#customer"} />
 
 

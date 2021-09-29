@@ -29,9 +29,9 @@ const CrsScore = (props) => {
              <div style={{flex:"0.4",}}>
                 <span className="crsScoressr">CRS Score</span>
                 <span className="crsScoressrSub">stock performance rating</span>
-                <span  style={{marginLeft:"50px"}} className="crsScoressrMain"><img style={{width:"40px",height:"40px",marginTop:"-20px"}}src={props.crs && props.crs>=80?greenStar:props.crs<80 && props.crs>=60?yellowStar: props.crs<60 && props.crs>=1?redStar:greyStar}/> {props.crs} <span>/</span>{props.crs?<span className="crsScoreActual">  100</span>:"N/A"}</span>
-      
-            </div>
+                <span  style={{marginLeft:"50px"}} className="crsScoressrMain"><img style={{width:"40px",height:"40px",marginTop:"-20px"}}src={props.crs && props.crs>=70?greenStar:props.crs<70 && props.crs>=40?yellowStar: props.crs<39 && props.crs>=1?redStar:greyStar}/> {props.crs} <span>/</span>{props.crs?<span className="crsScoreActual">  100</span>:"N/A"}</span>
+                </div>
+           
 
 
 

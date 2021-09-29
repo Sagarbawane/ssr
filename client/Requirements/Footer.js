@@ -39,11 +39,18 @@ class footer extends React.Component {
         </div>
        
         <div style={{display:"flex",justifyContent:"space-around",width:"90vw",padding:"30px 0px 20px 0px"}}>
-<div style={{flex:"0.1"}}>
+<div style={{flex:"0.1",marginTop:"10px"}}>
   <img src={CycleLogo} style={{width:"100px",height:"40px"}} alt="cycle"/>
 </div>
+<div style={{flex:"0.2"}}>
+<div style={{textAlign:"center"}}>
+               <a href="https://mycycles.in" target="_blank">
+               <div  className="buttonCheckedSSRSuggestion1Footer"><span style={{display:"inline-block",paddingTop:"16px",}}>Download Now</span></div>
+               </a>
+               </div>
+</div>
 
-<div style={{flex:"0.1"}}>
+{/* <div style={{flex:"0.1"}}>
          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.iamclearmind.cycle">
             <div className="playstoreButton">
 
@@ -68,7 +75,7 @@ class footer extends React.Component {
 
             </div>
            </a>
-</div>
+</div> */}
 
 <div style={{flex:"0.25"}}>
 <div className="footerssrHeading">Connect with Us</div>

@@ -47,7 +47,11 @@ import IconRed from "../Resources/keystat_red.svg";
 import server from "../Resources/backend-server.config";
 import BrowserHeader from "../Requirements/BrowserHeader";
 import BrowserMobileHeader from "../Requirements/BrowserMobileHeader";
-
+import greenStar from "../Resources/green_star.svg"
+import redStar from "../Resources/red_star.svg"
+import yellowStar from "../Resources/Yellow_star.svg"
+import greyStar from "../Resources/grey_star.svg"
+import GaugeChart from 'react-gauge-chart'
 import Checked from "../Resources/checked-2 2.svg"
 
 
@@ -257,20 +261,20 @@ const OverdivStyle = {
 const useStyles = makeStyles({
   newStyle: {
     backgroundColor: "#14141C",
-    color: "#fff",
+    color: "#ffffff !important",
     "&.Mui-selected": {
       backgroundColor:"#14141C",
-      color: "#fff",
+      color: "#ffffff !important",
       borderBottom: "2px solid #05C232",
     },
   },
   newStyle1: {
     backgroundColor: "#292e35",
-    color: "#fff",
+    color: "#ffffff !important",
     fontSize:"25px",
     "&.Mui-selected": {
       backgroundColor: "#292e35",
-      color: "#fff",
+      color: "#ffffff !important",
       fontSize:"20px",
       borderBottom: "2px solid #05C232",
     },
@@ -2460,7 +2464,7 @@ No showData Available
         <TabPanel value={value} index={0}>
                 <div>
                   
-                <a target="_blank" href="https://mycycles.in/how-to-use-cycle">
+                <a target="_blank" href="https://app/mycycles.in/how-to-use-cycle">
 
 <div style={{ display: "flex",backgroundColor: "#292e35", flexDirection: "space-around", margin: "auto" }}>
   <div style={{ flex: "0.1" ,paddingTop:"12px",alignItems:"flex-end"}}>
@@ -2475,6 +2479,29 @@ No showData Available
 </div>
 
 </a>
+<br/>
+<div style={{ display: "flex",backgroundColor: "#292e35", flexDirection: "space-around", margin: "auto",width:"100vw",height:"10vh" }}>
+<div style={{flex:"0.15",marginTop:"30px"}}>
+<GaugeChart id="gauge-chart3" 
+  nrOfLevels={3} 
+  colors={["#EA5E4B","#FFA500"," #18B13F",]} 
+  arcWidth={0.3} 
+  percent={ showData.IBD/100} 
+  />
+</div>
+<div style={{flex:"0.5",marginTop:"0px"}}>
+  <span  className="crsScoressrMobile">CRS Score</span>
+  <span style={{marginBottom:"-50px !important"}}  className="crsScoressrMobileSub">stock performance rating</span>
+
+</div>
+<div style={{flex:"0.005"}}>
+<div className="vlMobile"></div>
+           
+</div>
+<div style={{flex:"0.3",marginTop:"30px",marginLeft:"20px"}}>
+<span  className="crsScoressrMobile" ><img style={{width:"35px",height:"35px"}} src={showData && showData.IBD >=70?greenStar:showData && showData.IBD<70 && showData && showData.IBD>=40?yellowStar: showData && showData.IBD<39 && showData && showData.IBD>=1?redStar:greyStar}/> {showData && showData.IBD} <span>/</span>{showData && showData.IBD?<span className="crsScoressrActualMobile">  100</span>:"N/A"}</span>
+</div>
+</div>
 
 
                 {loaded && showData !== undefined ? (<>
@@ -2971,7 +2998,7 @@ className="paraStockDetailsMobile">Past Signal Performance</div>
               <TabPanel value={value} index={1}>
 <div>
   
-<a target="_blank" href="https://mycycles.in/how-to-use-cycle">
+<a target="_blank" href="https://app/mycycles.in/how-to-use-cycle">
 
 <div style={{ display: "flex",backgroundColor: "#292e35", flexDirection: "space-around", margin: "auto" }}>
 <div style={{ flex: "0.1" ,paddingTop:"12px",alignItems:"flex-end"}}>
@@ -2986,7 +3013,29 @@ What does Timelines Signify? -
 </div>
 
 </a>
+<br/>
+<div style={{ display: "flex",backgroundColor: "#292e35", flexDirection: "space-around", margin: "auto",width:"100vw",height:"10vh" }}>
+<div style={{flex:"0.15",marginTop:"30px"}}>
+<GaugeChart id="gauge-chart3" 
+  nrOfLevels={3} 
+  colors={["#EA5E4B","#FFA500"," #18B13F",]} 
+  arcWidth={0.3} 
+  percent={ showData.IBD/100} 
+  />
+</div>
+<div style={{flex:"0.5",marginTop:"0px"}}>
+  <span  className="crsScoressrMobile">CRS Score</span>
+  <span style={{marginBottom:"-50px !important"}}  className="crsScoressrMobileSub">stock performance rating</span>
 
+</div>
+<div style={{flex:"0.005"}}>
+<div className="vlMobile"></div>
+           
+</div>
+<div style={{flex:"0.3",marginTop:"30px",marginLeft:"20px"}}>
+<span  className="crsScoressrMobile" ><img style={{width:"35px",height:"35px"}} src={showData && showData.IBD >=70?greenStar:showData && showData.IBD<70 && showData && showData.IBD>=40?yellowStar: showData && showData.IBD<39 && showData && showData.IBD>=1?redStar:greyStar}/> {showData && showData.IBD} <span>/</span>{showData && showData.IBD?<span className="crsScoressrActualMobile">  100</span>:"N/A"}</span>
+</div>
+</div>
 
 {loaded && showData !== undefined ? (<>
   <div>
@@ -3481,10 +3530,11 @@ className="paraStockDetailsMobile">Past Signal Performance</div>
 
 </div>
 </TabPanel>
+
 <TabPanel value={value} index={2}>
 <div>
   
-<a target="_blank" href="https://mycycles.in/how-to-use-cycle">
+<a target="_blank" href="https://app/mycycles.in/how-to-use-cycle">
 
 <div style={{ display: "flex",backgroundColor: "#292e35", flexDirection: "space-around", margin: "auto" }}>
 <div style={{ flex: "0.1" ,paddingTop:"12px",alignItems:"flex-end"}}>
@@ -3500,7 +3550,29 @@ Long-Term Investor -
 </div>
 
 </a>
+<br/>
+<div style={{ display: "flex",backgroundColor: "#292e35", flexDirection: "space-around", margin: "auto",width:"100vw",height:"10vh" }}>
+<div style={{flex:"0.15",marginTop:"30px"}}>
+<GaugeChart id="gauge-chart3" 
+  nrOfLevels={3} 
+  colors={["#EA5E4B","#FFA500"," #18B13F",]} 
+  arcWidth={0.3} 
+  percent={ showData.IBD/100} 
+  />
+</div>
+<div style={{flex:"0.5",marginTop:"0px"}}>
+  <span  className="crsScoressrMobile">CRS Score</span>
+  <span style={{marginBottom:"-50px !important"}}  className="crsScoressrMobileSub">stock performance rating</span>
 
+</div>
+<div style={{flex:"0.005"}}>
+<div className="vlMobile"></div>
+           
+</div>
+<div style={{flex:"0.3",marginTop:"30px",marginLeft:"20px"}}>
+<span  className="crsScoressrMobile" ><img style={{width:"35px",height:"35px"}} src={showData && showData.IBD >=70?greenStar:showData && showData.IBD<70 && showData && showData.IBD>=40?yellowStar: showData && showData.IBD<39 && showData && showData.IBD>=1?redStar:greyStar}/> {showData && showData.IBD} <span>/</span>{showData && showData.IBD?<span className="crsScoressrActualMobile">  100</span>:"N/A"}</span>
+</div>
+</div>
 
 {loaded && showData !== undefined ? (<>
   <div>
@@ -4008,7 +4080,9 @@ className="paraStockDetailsMobile">Past Signal Performance</div>
 <div className="checkedMainMobile"> <img style={{width:"30px",height:"30px"}}  src={Checked} alt="checked"/> <span className="checkedSSRMobile">Risk Management</span></div>
 <div className="checkedMainMobile"> <img style={{width:"30px",height:"30px"}}  src={Checked} alt="checked"/> <span className="checkedSSRMobile">Learn from experts</span></div>
 <div style={{paddingBottom:"40px !important",height:"8vh"}}>
+  <a href="https://app.mycycles.in" target="_blank">
 <div  className="buttonCheckedSSRMobile"><span style={{display:"inline-block",paddingTop:"26px",}}>REGISTER FOR EARLY ACCESS</span></div>
+</a>
 </div>
 
 

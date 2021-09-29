@@ -22,31 +22,31 @@ class footerMobile extends React.Component {
         <br />
         <div className="logo-class" style={{paddingTop:"50px"}}>
           <Link className="footer-img" to="/"></Link>
-          <Link to="/">
+          <a href="https://mycycles.in/">
             <img
               src={CycleLogo}
               style={{ width: "150px",marginLeft:"20px" }}
               alt="cyclelogo"
             />
-          </Link>
+          </a>
         </div>
-        <Link to="/" >
+        <a href="https://mycycles.in/">
           {" "}
           <h5 className="titleFooter " style={{ paddingTop: "14px" }}>
 
             Links
 
           </h5>
-        </Link>
-
-        <Link to="/term-and-condition">
+        </a>
+        <a href="https://mycycles.in/term-and-condition">
+       
           {" "}
           <h5 className="titleFooter " style={{ color: "rgba(255, 255, 255, 0.8)" }}>
 
             Terms & Conditions{" "}
 
           </h5>
-        </Link>
+        </a>
 
         <Link to="/refund-and-cancellation">
           {" "}
@@ -204,7 +204,7 @@ class footerMobile extends React.Component {
                 style={{ width: "30px" }}
               />
             </a>
-            <a href="https://play.google.com/store/apps/details?id=com.iamclearmind.cycle">
+            {/* <a href="https://play.google.com/store/apps/details?id=com.iamclearmind.cycle">
               <span className="playstoreButtonMobile">
                 <div style={{ flex: "0.2", marginTop: "18px", marginLeft: "15px" }}><img style={{width:"50px",height:"50px"}} src={Playstore} alt="img"></img></div>
                 <div style={{ flex: "0.8", marginTop: "25px", marginLeft: "10px" }}>
@@ -213,7 +213,10 @@ class footerMobile extends React.Component {
                   <span className="googleMobile"> Google Play</span>
                 </div>
               </span>
-            </a>
+            </a> */}
+            <a href="https://bit.ly/getcycleapp" target="_blank">
+            <div style={{marginBottom:"0px",marginTop:"30px",paddingBottom:"20px",width:"10vw !important" }} className="buttonCheckedSSRMobileFooter"><span style={{display:"inline-block",paddingTop:"26px"}}>Download Now</span></div>
+           </a>
           </section>
         </div>
 

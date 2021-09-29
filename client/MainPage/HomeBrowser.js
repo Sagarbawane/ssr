@@ -495,8 +495,14 @@ style={{marginTop:"27px"}}
                   textAlign: "center",
                 }}
               >
-                <span className="userPrice">₹</span>{" "}
-                <span className="userPrice">0</span>
+                <span style={{fontStyle: "normal",
+  fontWeight: 600,
+  fontSize: "35px",
+  lineHeight: "44px"}} className="userPrice">₹</span>{" "}
+                <span style={{fontStyle: "normal",
+  fontWeight: 600,
+  fontSize: "35px",
+  lineHeight: "44px"}} className="userPrice">0</span>
               </div>
 
               <div className="plan">Watchlist - 1</div>
@@ -522,8 +528,14 @@ style={{marginTop:"27px"}}
                   textAlign: "center",
                 }}
               >
-                <span className="userPrice">₹</span>{" "}
-                <span className="userPrice">{value === 0 ? 999 : 9999}</span>
+                <span style={{fontStyle: "normal",
+  fontWeight: 600,
+  fontSize: "35px",
+  lineHeight: "44px"}} className="userPrice">₹</span>{" "}
+                <span style={{fontStyle: "normal",
+  fontWeight: 600,
+  fontSize: "35px",
+  lineHeight: "44px"}} className="userPrice">{value === 0 ? 999 : 9999}</span>
                 <span className="userPeriod">
                   {value === 0 ? "/ monthly" : "/ yearly"}
                 </span>
@@ -554,8 +566,14 @@ style={{marginTop:"27px"}}
                   textAlign: "center",
                 }}
               >
-                <span className="userPrice">₹</span>{" "}
-                <span className="userPrice">{value === 0 ? 1999 : 19999}</span>
+                <span style={{fontStyle: "normal",
+  fontWeight: 600,
+  fontSize: "35px",
+  lineHeight: "44px"}} >₹</span>{" "}
+                <span style={{fontStyle: "normal",
+  fontWeight: 600,
+  fontSize: "35px",
+  lineHeight: "44px"}}>{value === 0 ? 1999 : 19999}</span>
                 <span className="userPeriod">
                   {value === 0 ? "/ monthly" : "/ yearly"}
                 </span>

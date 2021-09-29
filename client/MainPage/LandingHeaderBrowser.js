@@ -89,9 +89,9 @@ const  LandingHeader=(props) =>{
               </span>
             </div>
             <div className="navButton" >
-              <Link to="/main" className="navButtonText" style={{ color: "#ffffff" }}>
+              <a target="_blank" href="https://app.mycycles.in" className="navButtonText" style={{ color: "#ffffff" }}>
                 LOGIN
-              </Link>
+              </a>
             </div>
           </div>
         </div>

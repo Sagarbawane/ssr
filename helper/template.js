@@ -2500,6 +2500,22 @@ border-radius: 8px;
 text-align:center;
 margin:10px auto 80px auto;
     }
+    .buttonCheckedSSRSuggestion1Footer{
+      font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+width:200px;
+height:50px;
+background: #18B13F;
+box-shadow: -1px -1px 2px rgba(28, 205, 73, 0.3), 1px 1px 2px rgba(20, 149, 53, 0.5), inset 1px -1px 2px rgba(20, 149, 53, 0.2), inset -1px 1px 2px rgba(20, 149, 53, 0.2), inset 1px 1px 2px rgba(28, 205, 73, 0.9), inset -1px -1px 3px rgba(20, 149, 53, 0.9);
+border-radius: 8px;
+text-align:center;
+
+    }
     .buttonCheckedSSRSuggestion{
       font-family: Graphik;
 font-style: normal;
@@ -2606,6 +2622,24 @@ box-shadow: -1px -1px 2px rgba(28, 205, 73, 0.3), 1px 1px 2px rgba(20, 149, 53, 
 border-radius: 8px;
 text-align:center;
 margin:50px 40px ;
+
+
+    }
+    .buttonCheckedSSRMobileFooter{
+      font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 22px;
+
+color: #FFFFFF;
+width:300px !important;
+height:80px;
+background: #18B13F;
+box-shadow: -1px -1px 2px rgba(28, 205, 73, 0.3), 1px 1px 2px rgba(20, 149, 53, 0.5), inset 1px -1px 2px rgba(20, 149, 53, 0.2), inset -1px 1px 2px rgba(20, 149, 53, 0.2), inset 1px 1px 2px rgba(28, 205, 73, 0.9), inset -1px -1px 3px rgba(20, 149, 53, 0.9);
+border-radius: 8px;
+text-align:center;
+
 
 
     }
@@ -2985,6 +3019,14 @@ z-index:999999999999;
   margin-left: -3px;
  
 }
+.vlMobile {
+  border-left: 2px solid  rgba(255, 255, 255, 0.5) ;
+  height:10vh;
+  
+  
+  margin:auto;
+ 
+}
 @media (min-height: 750px) {
   .whyCycleMain {
     height: 35vh;
@@ -3123,8 +3165,8 @@ z-index:999999999999;
 }
 .userPeriod {
   font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 44px;
 }
 .plan {
@@ -3549,7 +3591,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16) !important;
   margin-left: 5px;
 }
 .userPlanButtonMobile {
-  width: 500px;
+  width: 80vw;
   height: 60px;
 
   background: #18b13f;
@@ -3730,6 +3772,48 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16) !important;
   
 
   color: #fcfcfc;
+}
+.crsScoressrMobile{
+  font-family: Graphik;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 0px;
+display:block;
+color: #FFFFFF;
+
+
+
+}
+.crsScoressrMobileSub{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height:0px !important;
+  
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+.crsScoressrActualMobile{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 124px;
+  
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+.crsScoressrMobile{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 124px;
+  
+  color: #FFFFFF;
+  
 }
 
 

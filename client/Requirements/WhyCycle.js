@@ -79,7 +79,7 @@ style={{marginTop:"27px"}}
                </div>
       
         </div>
-        <a href="http://localhost:3000" target="_blank">
+        <a href="https://app.mycycles.in"  target="_blank">
            <div className="buttonCheckedSSR"><span style={{display:"inline-block",paddingTop:"16px"}}>REGISTER FOR EARLY ACCESS</span></div>
           </a>
            <br/>
